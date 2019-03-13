@@ -37,14 +37,14 @@ The `hdf5datasetgenerator.py` ([check here](https://github.com/meng1994412/SRCNN
 ## Results
 Figure 1 shows the original image. And Figure 2 increases the size of original image about two times but without applying any SRCNN, as a baseline image. Figure 3 demonstrates the image after applying SRCNN, which is about same size as Figure 2.
 
-<img src="https://github.com/meng1994412/SRCNN/blob/master/results/beagle.jpg">
+<img src="https://github.com/meng1994412/SRCNN/blob/master/results/beagle.jpg" width="300">
 
 Figure 1: Original image.
 
-<img src="https://github.com/meng1994412/SRCNN/blob/master/results/beagle_baseline.png">
+<img src="https://github.com/meng1994412/SRCNN/blob/master/results/beagle_baseline.png" width="600">
 
 Figure 2: Baseline image (2x bigger than original image), before applying SRCNN.
 
-<img src="https://github.com/meng1994412/SRCNN/blob/master/results/beagle_output.png">
+<img src="https://github.com/meng1994412/SRCNN/blob/master/results/beagle_output.png" width="600">
 
 Figure 3: Output image, after applying SRCNN.
