@@ -9,8 +9,10 @@
 * [Tensorflow](https://www.tensorflow.org/install/) 1.13.0
 * [cuda toolkit](https://developer.nvidia.com/cuda-toolkit) 10.0
 * [cuDNN](https://developer.nvidia.com/cudnn) 7.4.2
+* [Imutils](https://github.com/jrosebr1/imutils)
 * [NumPy](http://www.numpy.org/)
 * [SciPy](https://www.scipy.org/scipylib/index.html)
+* [Matplotlib](https://matplotlib.org/)
 
 ## Approaches
 The dataset is 100 images from [UKBench](https://archive.org/details/ukbench) dataset.
@@ -33,3 +35,16 @@ The `hdf5datasetwriter.py` ([check here](https://github.com/meng1994412/SRCNN/bl
 The `hdf5datasetgenerator.py` ([check here](https://github.com/meng1994412/SRCNN/blob/master/pipeline/io/hdf5datasetgenerator.py)) under `pipeline/io/` directory yields batches of images and labels from `HDF5` dataset. This class can help to facilitate our ability to work with datasets that are too big to fit into memory.
 
 ## Results
+Figure 1 shows the original image. And Figure 2 increases the size of original image about two times but without applying any SRCNN, as a baseline image. Figure 3 demonstrates the image after applying SRCNN, which is about same size as Figure 2.
+
+<img src="https://github.com/meng1994412/SRCNN/blob/master/results/beagle.jpg">
+
+Figure 1: Original image.
+
+<img src="https://github.com/meng1994412/SRCNN/blob/master/results/beagle_baseline.png">
+
+Figure 2: Baseline image (2x bigger than original image), before applying SRCNN.
+
+<img src="https://github.com/meng1994412/SRCNN/blob/master/results/beagle_output.png">
+
+Figure 3: Output image, after applying SRCNN.
